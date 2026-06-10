@@ -1,0 +1,40 @@
+LD2412:
+	OUT:		PF11
+	GND:	GND
+	+5V:		5V
+
+MQ2:
+	AO:		PB1
+	DO:		PC5
+	GND:	GND
+	5V:		5V
+
+SHT30:
+	VCC:		5V
+	GND:	GND
+	SDA:		PA5
+	SCL:		PA7
+
+AMG8833：
+	VIN: 		3.3V
+	GND: 	GND
+	SCL:		PA3
+	SDA: 	PA1
+	INT: 		悬空
+	ADO：	GND（地址0xD0）
+
+ESP8266:
+	VDD：	3.3V
+	GND：	GND
+	TXD：	TX
+	RXD：	RD
+	RST：	PF2
+	IO:		PF4
+
+蜂鸣器：
+	3V3		5V
+	GND		GND
+	SIG		PB0
+串口：
+	RXD:		PA9
+	TXD:		PA10
