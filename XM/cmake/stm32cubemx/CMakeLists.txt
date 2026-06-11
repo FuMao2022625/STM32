@@ -11,6 +11,7 @@ set(MX_Defines_Syms
 # STM32CubeMX generated include paths
 set(MX_Include_Dirs
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Core/Inc
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../APP
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/STM32F1xx_HAL_Driver/Inc
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include
@@ -30,6 +31,15 @@ set(MX_Application_Src
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Core/Src/sysmem.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Core/Src/syscalls.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../startup_stm32f103xe.s
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../APP/sht30.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../APP/AMG8833.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../APP/bsp_mq2.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../APP/LD2412.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../APP/bsp_esp8266.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../APP/bsp_beep.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../APP/function.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../APP/interface.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../APP/lcd1602.c
 )
 
 # STM32 HAL/LL Drivers
